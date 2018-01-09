@@ -1,0 +1,43 @@
+@keyframes shakeX {
+  8%, 41% {
+      transform: translateX(-10px);
+  }
+  25%, 58% {
+      transform: translateX(10px);
+  }
+  75% {
+      transform: translateX(-5px);
+  }
+  92% {
+      transform: translateX(5px);
+  }
+  0%, 100% {
+      transform: translateX(0);
+  }
+}
+
+.shakeX {
+  animation: shakeX .5s ease-out 1 forwards;
+}
+
+@keyframes shakeY {
+  8%, 41% {
+      transform: translateY(-10px);
+  }
+  25%, 58% {
+      transform: translateY(10px);
+  }
+  75% {
+      transform: translateY(-5px);
+  }
+  92% {
+      transform: translateY(5px);
+  }
+  0%, 100% {
+      transform: translateY(0);
+  }
+}
+
+.shakeY {
+  animation: shakeY .5s ease-out 1 forwards;
+}
